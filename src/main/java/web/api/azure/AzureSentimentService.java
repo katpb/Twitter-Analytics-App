@@ -39,7 +39,7 @@ public class AzureSentimentService {
 		
 		HttpClient httpClient = HttpClient.newHttpClient();
 		
-		HttpRequest request = HttpRequest.newBuilder().uri(;
+		HttpRequest request = HttpRequest.newBuilder().uri();
 		
 
 		//Hint:  Find the path for the sentiment endpoint in the Text Analytics API Reference
